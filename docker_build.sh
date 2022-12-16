@@ -20,4 +20,4 @@ set -- "${POSITIONAL[@]}"
 
 echo "Image name: ${NAME}"
 
-docker build --no-cache -t "${NAME}" --platform linux/amd64 --build-arg USER_ID=$(id -u) --build-arg GROUP_ID=$(id -g) .
+docker build -t "${NAME}" --platform linux/arm64/v8 --build-arg USER_ID=$(id -u) --build-arg GROUP_ID=$(id -g) .

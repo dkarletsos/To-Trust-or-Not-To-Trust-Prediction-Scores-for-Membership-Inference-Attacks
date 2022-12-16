@@ -4,8 +4,8 @@ pandas
 scikit-learn
 scipy
 seaborn
-torch==1.8.1+cu111
-torchvision==0.9.1+cu111
+torch
+torchvision
 torchmetrics
 wandb
 rtpt
@@ -15,6 +15,6 @@ pandas
 yapf
 pre-commit
 jupyterlab
-backpack-for-pytorch==1.3.0
+backpack-for-pytorch
 ipywidgets
 gnupg
